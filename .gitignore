@@ -1,1 +1,21 @@
+#poner imagen
+import Image
+myImage = Image.open("your_image_here");
+myImage.show();
 
+#rotation:
+from PIL import Image
+
+def rotate_image():
+img = Image.open("nime1.png")
+
+img.rotate(45).save("plus45.png")
+img.rotate(-45).save("minus45.png")
+
+img.rotate(90).save("90.png")
+img.transpose(Image.ROTATE_90).save("90_trans.png")
+
+img.rotate(180).save("180.png")
+
+if __name__ == '__main__':
+rotate_image()
