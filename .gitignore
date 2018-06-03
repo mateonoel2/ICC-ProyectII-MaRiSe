@@ -1,5 +1,8 @@
+import sys
+import os
+
 #poner imagen
-import Image
+import("Image:")
 myImage = Image.open("your_image_here");
 myImage.show();
 
