@@ -3,5 +3,6 @@ import os
 
 a=int(input())
 b=3
+c = (a**3)*b
 
-print(a+b)
+print(a+b+c)
