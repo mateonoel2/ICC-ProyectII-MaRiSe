@@ -9,4 +9,4 @@ else:
   b=a+3
   c=b-a
 
-print("El resultado es: " , a+b+c)
+print(El resultado es: a+b+c)
