@@ -2,7 +2,11 @@ import sys
 import os
 
 a=int(input())
-b=3
-c = (a**3)*b
+if a<0:
+  b=3
+  c = (a**3)*b
+else:
+  b=a+3
+  c=b-a
 
 print("El resultado es: " , a+b+c)
