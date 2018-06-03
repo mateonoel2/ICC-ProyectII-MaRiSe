@@ -5,4 +5,4 @@ a=int(input())
 b=3
 c = (a**3)*b
 
-print(a+b+c)
+print("El resultado es: " , a+b+c)
