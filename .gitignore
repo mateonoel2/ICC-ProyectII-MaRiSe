@@ -1,8 +1,8 @@
-import sys 
+import sys
 import os
 
 a=int(input())
-if a>0:
+if a>0 and a<10000:
   b=3
   c = (a**3)*b
 else:
