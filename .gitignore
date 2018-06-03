@@ -2,11 +2,12 @@ import sys
 import os
 
 a=int(input())
-if a<0:
+if a>0:
   b=3
   c = (a**3)*b
 else:
   b=a+3
   c=b-a
 
-print(El resultado es: a+b+c)
+print("El resultado es:")
+print(a+b+c)
