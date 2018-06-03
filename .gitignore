@@ -11,23 +11,3 @@ else:
 
 print("El resultado es:")
 print(a+b+c)
-
-
-
-import os
-import sys
-
-
-a = str(input())
-
-if len(a)>0:
-    if len(a)>=3:
-        if a.find("ing") == -1:
-            print (a+"ing")
-        else:
-            t = a.replace ("ing","ly")
-            print (t)
-    else:
-        print(a)
-else:
-    print ("Invalid input")
